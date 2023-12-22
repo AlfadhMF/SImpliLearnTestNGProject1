@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Mohanad Alfadhli/IdeaProjects/SimpliLearnTestNGProject1">
+        <classes>
+            <class name="TestNGSteps.PurchaseSteps">
+                <methods>
+                    <include name="URL"/>
+                    <include name="Login"/>
+                    <include name="Add"/>
+                    <include name="Information"/>
+                    <include name="Confrimation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
